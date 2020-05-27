@@ -1,3 +1,3 @@
 Welcome !
 
-[About me](amount.md)
+[About me](about.md)
