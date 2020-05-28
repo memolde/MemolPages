@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Memol.de
-email: test@memol.com
+# email: test@memol.com
 description: >- # this means to ignore newlines until "baseurl:"
   Memol means "Mein Modernes Leben": My modern Life and
   blogs about everything I am interested in
