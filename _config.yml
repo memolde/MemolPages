@@ -18,13 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Memol
+title: Memol.de
 email: test@memol.com
 description: >- # this means to ignore newlines until "baseurl:"
   Memol means "Mein Modernes Leben": My modern Life and
-  blogs about everything which I do
-baseurl: "/MemolPages" # the subpath of your site, e.g. /blog
-url: "https://memolde.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+  blogs about everything I am interested in
+#baseurl: "/MemolPages" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
+#url: "https://memolde.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://memol.de" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Memol15
 github_username:  memolde
 
