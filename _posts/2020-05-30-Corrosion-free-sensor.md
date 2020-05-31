@@ -14,3 +14,7 @@ But how could I make it more resistant to corrosion? I try acrylic paint:
 ![Sensor Protected](/assets/2020-05-30-sensor_green.jpg)
 <br>
 Let's see if this works
+<br>
+{{ site.baseurl }}
+<br>
+{{ site.url }}
