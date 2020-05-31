@@ -29,6 +29,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://memol.de" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Memol15
 github_username:  memolde
+excerpt_separator: <!--more-->
 
 # Build settings
 theme: minima
