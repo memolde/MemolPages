@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "5Volt relay"
-date:   2020-05-30 15:00:00 +0200
+date:   2020-06-30 15:00:00 +0200
 categories: Relay Voltage Control Power
 ---
 I want to control a small pump for watering my plants from an ESP32. I try to battery power the device, so the voltage is either 3,3V or something between 2.9 and 4.2 volts from a lithium-ion battery. How will the relay perform at these voltages?
