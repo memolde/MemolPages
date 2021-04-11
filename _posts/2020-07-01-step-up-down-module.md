@@ -28,7 +28,7 @@ The following voltages have been tested
 
 
 <br>
-The module does not really comply with the specifications. Input voltages below 3.1 volts do not produce any output voltage. The promised 600 mA output current leads to strange noises, and a lot of heat. The following table shows the combinations which voltage / Amperage combination produces a valid output:
+The module does not really comply with the specifications. Input voltages below 3.1 volts do not produce any output voltage. The promised 600 mA output current leads to strange noises, voltage drops and a lot of heat. The following table shows the combinations which voltage / Amperage combination produces a valid output:
 
 
 |         | 3.1 | 3.3 | 4.0 | 5.0 |

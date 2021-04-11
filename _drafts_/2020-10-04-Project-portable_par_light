@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Project: Portable PAR Light"
+date:   2020-10-04 20:04:59 +0200
+categories: LED Project PAR Wireless Light Stage Batteries Li-ion
+---
+
+I have a cheap par light which can be controlled by DMX. I want to make it wireless. 
+This means not to control the light wireless, but make it independent from the power.
+To do this, I want to put some li-ion batteries inside and 
