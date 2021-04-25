@@ -6,6 +6,16 @@ categories: Corrosion Sensor Water Moisture Capacitive
 ---
 Last year I tried acrylic paint to protect my Soil Moisture Sensors.
 ![Sensor Protected]({{ site.baseurl }}/assets/images/2020-05-30-sensor_green.jpg)
+See my post [here]({{ site.baseurl }}{%post_url 2020-05-30-Corrosion-free-sensor%})
+ 
+This is how some of them looked after one year:
+![Sensor1]({{ site.baseurl }}/assets/images/2021-04-24-sensor1.jpg)
+This sensor looks fine except of some minor optical changes. But it is not working anymore. It returns just 0.3 Volts, and what is worse: It constantly draws 100mA! I thought my battery has gotten a defect during winter, but it seems that this sensor is causing the battery power drain faster as expected.
+
+![Sensor2]({{ site.baseurl }}/assets/images/2021-04-24-sensor2.jpg)
+It looks a little bit worn, but still works
+![Sensor3]({{ site.baseurl }}/assets/images/2021-04-24-sensor3.jpg)
+This one looks extremely worn, but it still works correctly. It will probably break sometime due to corrosion. It has a higer power consumption of 22 mA while the others have 7 mA
 
 This worked fine, but I had problems to interpret the measurements. 
 
@@ -39,10 +49,12 @@ The sensors are compensated for voltage changes as long as you have at least 3.3
 |     B-1           |      3.24 V        |       2.05 V            |
 |     B-2           |      3.16 V        |       2.25 V            |
 |     B-3           |      3.16 V        |       2.08 V            |
+|     C-1           |  drifting 2.9 V    |  Drifting  2.4 V        |
 
 The Sensors have a different characteristic. 
 
 Sensor A from DIY More is reacting instantly to wetness changes. Sensor B takes several (around 5) minutes to adapt to new values. I guess Sensor B just has a bigger capacitor to smooth the readings. When you want to record a value only once every 5 Minutes it is not an option to power down the sensor. Since the power usage is 7-8 mA this draws substantially power which is especially important for battery powered installations.
+Sensor C seems to be broken it drifts for about 0.1 Volts. I don't have a new one to compare with, so it may be broken.
 
  The sensors have differnt values for dry and wet, but are quite similar compared to the same group. 
 
@@ -70,6 +82,7 @@ Temperature seems to have an effect, but only a small one. Since the humidity us
 
 
 ### Conclusion
+- Paint the bottom of the sensor as well
 - Don't mix sensors of different types
 - make sure the sensors are positioned similar in the earth
 - Prefer an analog digital converter near the sensors instead of using long cables and the ADC of the ESP32.
