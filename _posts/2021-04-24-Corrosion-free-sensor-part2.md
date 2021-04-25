@@ -9,12 +9,12 @@ Last year I tried acrylic paint to protect my Soil Moisture Sensors.
 See my post [here]({{ site.baseurl }}{%post_url 2020-05-30-Corrosion-free-sensor%})
  
 This is how some of them looked after one year:
-![Sensor1]({{ site.baseurl }}/assets/images/2021-04-24-sensor1.jpg)
+![Sensor1]({{ site.baseurl }}/assets/images/2021-04-24-Sensor1.jpg)
 This sensor looks fine except of some minor optical changes. But it is not working anymore. It returns just 0.3 Volts, and what is worse: It constantly draws 100mA! I thought my battery has gotten a defect during winter, but it seems that this sensor is causing the battery power drain faster as expected.
 
-![Sensor2]({{ site.baseurl }}/assets/images/2021-04-24-sensor2.jpg)
+![Sensor2]({{ site.baseurl }}/assets/images/2021-04-24-Sensor2.jpg)
 It looks a little bit worn, but still works
-![Sensor3]({{ site.baseurl }}/assets/images/2021-04-24-sensor3.jpg)
+![Sensor3]({{ site.baseurl }}/assets/images/2021-04-24-Sensor3.jpg)
 This one looks extremely worn, but it still works correctly. It will probably break sometime due to corrosion. It has a higer power consumption of 22 mA while the others have 7 mA
 
 This worked fine, but I had problems to interpret the measurements. 
